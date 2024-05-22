@@ -1,0 +1,17 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: Oauth
+  security:
+    user:
+      name: admin
+      password: admin
+      roles: ADMIN
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Ov23lizLQk8U1TbmuVqT
+            client-secret: f91f0f8399a66f16e5f5a0cc08591a5643e5cd60
